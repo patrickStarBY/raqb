@@ -1,0 +1,39 @@
+.builder-field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__operator {
+    & .MuiFormControl-root {
+      min-width: calc(100% - 10px);
+      margin-left: 10px;
+    }
+  }
+
+  .builder-field__name {
+    display: flex;
+  }
+
+  .builder-field__title:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .builder-field__title {
+    font-size: 12px;
+
+    &:nth-child(2) {
+      margin-left: 20px;
+    }
+
+    &_bold {
+      font-weight: 700;
+    }
+  }
+
+  &__name {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}

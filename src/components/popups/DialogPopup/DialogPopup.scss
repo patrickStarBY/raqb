@@ -1,0 +1,55 @@
+.dialog-popup {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+
+  .dialog-popup__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  .dialog-popup__icon {
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &_error {
+    .dialog-popup__wrapper {
+      background-color: rgb(24, 6, 5);
+    }
+
+    .dialog-popup__title,
+    .dialog-popup__text,
+    .dialog-popup__icon {
+      color: #fab3ae;
+    }
+
+    .dialog-popup__icon:hover {
+      background-color: #f44336;
+    }
+  }
+
+  &_success {
+    .dialog-popup__wrapper {
+      background-color: rgb(7, 17, 7);;
+    }
+
+    .dialog-popup__title,
+    .dialog-popup__text,
+    .dialog-popup__icon {
+      color: rgb(183, 223, 185);
+    }
+
+    .dialog-popup__icon:hover {
+      background-color: #4caf50;
+    }
+  }
+}

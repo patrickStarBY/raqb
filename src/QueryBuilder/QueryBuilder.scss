@@ -1,0 +1,110 @@
+@import 'node_modules/react-awesome-query-builder/css/styles.scss';
+
+.query-builder {
+  margin: 0;
+
+  &__container {
+    padding: 10px 0;
+  }
+
+  .group-or-rule-container {
+    padding-right: 0;
+  }
+
+  .group--header {
+    .MuiButton-label {
+      font-size: 12px;
+    }
+  }
+
+  .MuiInputBase-root {
+    font-size: 12px;
+  }
+
+  .MuiSelect-select {
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  .MuiSvgIcon-root {
+    width: 25px;
+    height: 25px;
+  }
+
+  .group--children {
+    margin-right: 10px;
+  }
+
+  .widget--widget {
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  .rule--body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .rule--value {
+    min-width: 100%;
+    flex: 1;
+
+    input {
+      font-size: 12px;
+    }
+  }
+
+  .rule--widget--STRING,
+  .rule--widget--INTEGER,
+  .rule--widget--HANDBOOK_ITEM,
+  .rule--widget--AFISHA_CITY {
+    width: 100%;
+  }
+
+  .rule--widget--HANDBOOK_ITEM {
+
+    .search-select__fields {
+      width: 100%;
+    }
+  }
+
+  .MuiGrid-root.MuiGrid-container {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+
+    .MuiGrid-item {
+      display: inline-block;
+      min-height: 20px;
+    }
+
+    .MuiSwitch-thumb {
+      width: 14px;
+      height: 14px;
+    }
+
+    input {
+      margin: 0;
+    }
+  }
+
+  .MuiSwitch-root {
+    height: 14px;
+    padding: 0 12px;
+  }
+
+  .MuiSwitch-switchBase {
+    left: -3px;
+    padding: 0 14px;
+  }
+
+  .rule--operator {
+    margin-left: 20px;
+  }
+}

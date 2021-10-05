@@ -1,0 +1,19 @@
+.base-input {
+  label {
+    font-size: 16px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+    color: #231f20;
+  }
+
+  textarea {
+    line-height: 1.2em;
+  }
+
+  .MuiFormHelperText-root {
+    font-size: 12px;
+  }
+}

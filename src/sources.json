@@ -1,0 +1,84 @@
+{
+  "sources": [
+    {
+      "id": 4,
+      "name": "gaid",
+      "desc": "Рекламные идентификаторы Android-устройств",
+      "joinFieldNames": ["puid", "gaid"],
+      "isActive": true,
+      "mainSource": true,
+      "isAutoUpdate": true,
+      "profileOrAction": "profiles",
+      "attr": [
+        {
+          "id": "gaid-puid",
+          "name": "puid",
+          "title": "puid",
+          "active": true,
+          "controlName": "INTEGER",
+          "groupName": "gaid",
+          "groupTitle": "gaid - Рекламные идентификаторы Android-устройств",
+          "description": "cast({{id}} as Int64)",
+          "datajs": "",
+          "settingjs": "",
+          "data": {
+            "importAttrName": "puid",
+            "importGroupName": "gaid",
+            "settingjs": ""
+          }
+        },
+        {
+          "id": "gaid-gaid",
+          "name": "gaid",
+          "title": "gaid",
+          "active": true,
+          "controlName": "STRING",
+          "groupName": "gaid",
+          "groupTitle": "gaid - Рекламные идентификаторы Android-устройств",
+          "description": "{{target_id}}",
+          "datajs": "",
+          "settingjs": "",
+          "data": {
+            "importAttrName": "gaid",
+            "importGroupName": "gaid",
+            "settingjs": ""
+          }
+        },
+        {
+          "id": "gaid-id",
+          "name": "id",
+          "title": "id",
+          "active": true,
+          "controlName": "STRING",
+          "groupName": "gaid",
+          "groupTitle": "gaid - Рекламные идентификаторы Android-устройств",
+          "description": "{{id}}",
+          "datajs": "",
+          "settingjs": "",
+          "data": {
+            "importAttrName": "id",
+            "importGroupName": "gaid",
+            "settingjs": ""
+          }
+        },
+        {
+          "id": "gaid-target_id",
+          "name": "target_id",
+          "title": "target_id",
+          "active": true,
+          "controlName": "STRING",
+          "groupName": "gaid",
+          "groupTitle": "gaid - Рекламные идентификаторы Android-устройств",
+          "description": "{{target_id}}",
+          "datajs": "",
+          "settingjs": "",
+          "data": {
+            "importAttrName": "target_id",
+            "importGroupName": "gaid",
+            "settingjs": ""
+          }
+        }
+      ]
+    }
+  ]
+}

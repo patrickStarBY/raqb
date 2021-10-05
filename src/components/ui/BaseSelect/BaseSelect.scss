@@ -1,0 +1,25 @@
+.base-select {
+  .MuiInputBase-root {
+    font-size: 16px;
+  }
+
+  .MuiSelect-icon {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .MuiSelect-iconOpen {
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .MuiSelect-select {
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  &__item.MuiListItem-root {
+    font-size: 16px;
+  }
+}
